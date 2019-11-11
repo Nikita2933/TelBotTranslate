@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'Telbot'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+
+
+    mavenCentral()
+    mavenLocal()
+
+
+}
+
+dependencies {
+    compile "org.telegram:telegrambots:4.4.0.1"
+    compile 'com.googlecode.json-simple:json-simple:1.1.1'
+
+
+}
