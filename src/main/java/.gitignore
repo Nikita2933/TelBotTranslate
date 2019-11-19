@@ -32,3 +32,4 @@
 /subprojects/*/out
 /.teamcity/*.iml
 /.teamcity/target
+MYfile
